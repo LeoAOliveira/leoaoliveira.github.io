@@ -3,13 +3,6 @@
 /*===============================================================================*/
 /* Body */
 
-/* 
-html, #capa, #capa-xs{
-
-	height: 628px;
-	width: 100%;
-} */
-
 body{
 
 	font-family: 'MyriadPro-Regular';
@@ -42,6 +35,18 @@ h1{
 	font-family: 'MyriadPro-Semibold';
 }
 
+h2{
+	font-family: 'MyriadPro-Regular';
+	font-size: 18px;
+	color: rgb(134,134,139);
+}
+
+h3{
+	font-family: 'MyriadPro-Regular';
+	font-size: 12px;
+	color: rgb(134,134,139);
+}
+
 .titles{
 	font-size: 50px;
 	text-align: center;
@@ -63,24 +68,36 @@ h1{
 /*===============================================================================*/
 /* NavBar */
 
-.img-logo{
-
-	height: 53px;
-	width: 132px;
-	display: block;
-	background: url('imagens/CCC-logo-xs.png') no-repeat;
-	background-size: contain;
-	color: transparent;
-}
-
 nav.navbar-default{
-	padding: 20px 0px;
-	background: rgba(252,252,253, 1);
+	padding: 10px 10px;
+	background: white;
+	border-color: white;
 }
 
-.navbar-brand{
+.home-link{
+	font-family: 'MyriadPro-Semibold';
+	font-size: 18px;
+	color: black;
+	text-align: left;
+	margin: auto;
+	transition: background 0.4s, color 0.4s;
+}
 
-	padding: 0px 15px;
+.home-link:hover{
+	color: black;
+}
+
+.navbar-links{
+	font-family: 'MyriadPro-Regular';
+	font-size: 15px;
+	color: rgb(134, 134, 134);
+	text-align: left;
+	margin: auto;
+	transition: background 0.4s, color 0.4s;
+}
+
+.navbar-links:hover{
+	color: black;
 }
 
 
@@ -142,10 +159,6 @@ nav.navbar-default{
 	padding-bottom: 60px;
 	width: 80%;
 	margin: auto;
-}
-
-.bg-about {
-	height: 540px;
 }
 
 .btn-custom{
@@ -292,330 +305,6 @@ nav.navbar-default{
 }
 
 /*===============================================================================*/
-/* Serviços */
-
-#servicos{
-
-	height: 100%;
-	background: rgb(18,18,18);
-	padding-top: 120px;
-	padding-bottom: 20px; 
-}
-
-.servicos-texto{
-
-	padding-top: 55px;
-	padding-left: 40px;
-	color: rgb(240,240,240);
-	text-align: left;
-	font-size: 17px;
-	font-weight: 100;
-	letter-spacing: 1.5px;
-}
-
-.img-servicos{
-
-	display: block;
-	vertical-align: middle;
-	padding-top: 55px;
-	margin: auto;
-	width: 370px;
-}
-
-.empresa-bottom-space{
-
-	background: none;
-	height: 90px;
-	width: 100%;
-}
-
-
-/*===============================================================================*/
-/* Produtos */
-
-#produtos{
-
-	height: 100%;
-	background: rgb(0,0,0);
-	padding-top: 80px;
-	padding-bottom: 20px; 
-}
-
-.texto-produtos-1{
-
-	color: rgb(240,240,240);
-	text-align: center;
-	font-size: 17px;
-	font-weight: 100;
-	letter-spacing: 1.5px;
-	padding-top: 40px;
-	padding-bottom: 20px;
-	padding-left: 15px;
-}
-
-.texto-produtos-2{
-
-	color: rgb(240,240,240);
-	text-align: center;
-	font-size: 10px;
-	font-weight: 100;
-	letter-spacing: 1.5px;
-	padding-top: 10px;
-	padding-bottom: 80px;
-	padding-left: 15px;
-}
-
-.parceiros{
-
-	padding-top: 10px;
-	padding-bottom: 10px;
-	display: block;
-	vertical-align: middle;
-	margin: auto;
-}
-
-
-/*===============================================================================*/
-/* Unidades */
-
-#unidades{
-
-	height: 100%;
-	background: rgb(18,18,18);
-	padding-top: 80px;
-	padding-bottom: 20px; 
-}
-
-.titulo-unidades{
-
-	color: rgb(240,240,240);
-	text-align: center;
-	font-size: 35px;
-	font-weight: 100;
-	letter-spacing: 1.5px;
-	padding-top: 40px;
-	padding-bottom: 20px;
-	padding-left: 15px;
-}
-
-.unidades{
-
-	padding: 10px 5px 10px 5px;
-	display: block;
-	vertical-align: middle;
-	margin: auto;
-}
-
-
-/*===============================================================================*/
-/* Mídia */
-
-#midia{
-
-	height: 100%;
-	background: rgb(0,0,0);
-	padding-top: 80px;
-	padding-bottom: 20px; 
-}
-
-.midia{
-
-	padding: 50px 5px 10px 5px;
-	display: block;
-	vertical-align: middle;
-	margin: auto;
-}
-
-.midia-xs{
-
-	padding: 50px 5px 10px 5px;
-	display: block;
-	vertical-align: middle;
-	margin: auto;
-	width: 70%;
-}
-
-.btn-midia{
-
-	color: #FFF;
-	font-size: 15px;
-	border-radius: 500px;
-	-webkit-border-radius: 500px;
-	-moz-border-radius: 500px;
-	
-	padding: 10px 30px;
-	margin: auto;
-
-	text-transform: uppercase;
-	transition: background 0.4s, color 0.4s;
-}
-
-.btn-midia-sm{
-
-	color: #FFF;
-	font-size: 11px;
-	border-radius: 500px;
-	-webkit-border-radius: 500px;
-	-moz-border-radius: 500px;
-	
-	padding: 10px 20px;
-	margin: auto;
-
-	text-transform: uppercase;
-	transition: background 0.4s, color 0.4s;
-}
-
-.btn-whatsapp{
-    
-    border: 2px solid #FFF;
-	margin-top: 55px
-}
-
-.btn-whatsapp:hover{
-
-	background-color: #25D366;
-	color: #FFF;
-}
-
-.btn-whatsapp:visited{
-
-	border: 2px solid #FFF;
-	color: #FFF;
-}
-
-.btn-facebook{
-
-	border: 2px solid #FFF;
-	margin: 40px auto 5px auto;
-	display: block;
-	vertical-align: middle;
-}
-
-.btn-facebook:hover{
-
-	background-color: #3B579D;
-	color: #FFF;
-}
-
-.btn-facebook:visited{
-
-	border: 2px solid #FFF;
-	color: #FFF;
-}
-
-.btn-youtube{
-
-	border: 2px solid #FFF;
-	margin: 40px auto 5px auto;
-	display: block;
-	vertical-align: middle;
-}
-
-.btn-youtube:hover{
-
-	background-color: #D50C1D;
-	color: #FFF;
-}
-
-.btn-youtube:visited{
-
-	border: 2px solid #FFF;
-	color: #FFF;
-}
-
-.btn-insta{
-
-	border: 2px solid #FFF;
-	margin: 40px auto 5px auto;
-	display: block;
-	vertical-align: middle;
-}
-
-.btn-insta:hover{
-
-	background-image: url("imagens/Insta-bg.png");
-	color: #FFF;
-}
-
-.btn-insta:visited{
-
-	border: 2px solid #FFF;
-	color: #FFF;
-}
-
-.btn-reportagens{
-
-	border: 2px solid #FFF;
-	margin: 40px auto 5px auto;
-	display: block;
-	vertical-align: middle;
-}
-
-.btn-reportagens:hover{
-
-	background: #FFF ;
-	color: #000;
-}
-
-
-/*===============================================================================*/
-/* Fale Conosco */
-
-#fale-conosco{
-
-	height: 100%;
-	background: rgb(18,18,18);
-	padding-top: 80px;
-	padding-bottom: 20px; 
-}
-
-.btn-custom-black{
-
-	color: white;
-	background-color: black;
-	border-radius: 500px;
-	-webkit-border-radius: 500px;
-	-moz-border-radius: 500px;
-	
-	padding: 10px 35px;
-	margin: 60px 40px 0px 40px;
-
-	text-transform: uppercase;
-	transition: background 0.4s, color 0.4s;
-}
-
-.btn-custom-black-xs{
-
-	color: white;
-	background-color: rgb(18,18,18);
-	font-size: 15px;
-	border-radius: 500px;
-	-webkit-border-radius: 500px;
-	-moz-border-radius: 500px;
-	
-	padding: 10px 30px;
-	display: block;
-	margin: 40px auto 0px auto;
-	vertical-align: middle;
-
-
-	text-transform: uppercase;
-	transition: background 0.4s, color 0.4s;
-}
-
-.btn-black{
-   background-color: rgb(0,0,0);
-   color: rgb(255, 255, 255);
-}
-
-.btn-black:visited{
-
-	border: 2px solid #FFF;
-	color: #FFF;
-}
-
-
-/*===============================================================================*/
 /* Contato */
 
 #contato{
@@ -720,56 +409,8 @@ nav.navbar-default{
 /* Rodapé */
 
 footer{
-
-	padding: 50px 0 20px 0;
-	background-color: rgb(64,64,64);
-	position: relative;
-	
+	border-top: 2px;
+	border-color: rgb(134,134,139);
+	padding: 50px 0 50px 0;
+	margin: auto;
 }
-
-#rodape h4{
-
-	color: #919496;
-	font-size: 15px;
-	letter-spacing: 1px;
-
-}
-
-#rodape h5{
-
-	color: #919496;
-	font-size: 13px;
-	letter-spacing: 1px;
-
-}
-
-
-
-
-/*===============================================================================*/
-
-/* TIPOGRAFIA */
-
-/*h1{
-
-	/*font-weight: 900;
-	letter-spacing: -0.05em;
-}*/
-
-h2{
-
-	font-size: 50px;
-	font-weight: 700;
-	letter-spacing: -0.04em;
-}
-
-h3{
-
-	font-size: 35px;
-	font-weight: 700;
-	letter-spacing: -0.04em;
-}
-
-
-
-
