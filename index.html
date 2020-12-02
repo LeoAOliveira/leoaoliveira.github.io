@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +17,7 @@
   <body>
 
     <!-- Navegação -->
-    <nav class="navbar navbar-fixed-top navbar-inverse navbar-default">
+    <nav class="navbar navbar-fixed-top navbar-default">
         
         <div class="container">
           
@@ -29,7 +29,7 @@
               <span class="icon-bar"></span>
             </button>
             
-            <a href="index.html" class="btn home-link btn-lg"> Leonardo Oliveira</a>
+            <a href="index.html" class="btn btn-lg home-link"> Leonardo Oliveira</a>
 
           </div>
 
@@ -38,10 +38,11 @@
              
             <ul class="nav navbar-nav navbar-right">
                 
-              <a href="#about" class="btn navbar-links btn-lg"> About </a>
-              <a href="#top_shelf" class="btn navbar-links btn-lg"> Top Shelf </a>
-              <a href="#projects" class="btn navbar-links btn-lg"> Projects </a>
-              <a href="mailto:leonardo.aoliveira@icloud.com" class="btn navbar-links btn-lg"> Contact </a>
+              <li> <a href="#about"> About </a> </li>
+              <li> <a href="#top_shelf"> Top Shelf </a> </li>
+              <li> <a href="#projects"> Projects </a> </li>
+              <li> <a href="#publications"> Publications </a> </li>
+              <li> <a href="mailto:leonardo.aoliveira@icloud.com"> Contact </a> </li>
 
             </ul>
           </div>
@@ -67,7 +68,7 @@
               <p class="col text-center text-about"> 
                 I'm Leo! iOS Developer at Apple Developer Academy | Mackenzie and
                 MIT Global Startup Labs former participant.
-                Technology, innovation and business enthusiast.
+                Swift, technology, innovation and business enthusiast.
               </p>
             </div>
             <div class="col-xs-12 visible-xs-* hidden-sm hidden-md hidden-lg">
@@ -75,15 +76,52 @@
               <p class="col text-center text-about-xs"> 
                 I'm Leo! iOS Developer at Apple Developer Academy | Mackenzie and
                 MIT Global Startup Labs former participant.
-                Technology, innovation and business enthusiast.
+                Swift, technology, innovation and business enthusiast.
             </div>
             </p>
           </div>
 
-          <div id="row"> 
-            <!-- Texto -->
-            <div class="col text-center">
-              <a href="https://www.linkedin.com/in/leonardoaoliveira" class="btn btn-custom btn-custom btn-lg"> Get to know me! </a>
+          <!-- MD and LG -->
+          <div id="row" class="visible-md-* visible-lg-* hidden-xs hidden-sm text-center medias">
+
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+              <a href="https://github.com/LeoAOliveira" target="_blank">
+                <img src="images/github-icon.png" class="btn-logos">
+              </a>
+            </div>
+
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+              <a href="https://medium.com/@leonardo.aoliveira" target="_blank">
+                <img src="images/medium-icon.png" class="btn-logos">
+              </a>
+            </div>
+
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+              <a href="https://www.linkedin.com/in/leonardoaoliveira/" target="_blank">
+                <img src="images/linkedin-icon.png" class="btn-logos">
+              </a>
+            </div>
+          </div>
+
+          <!-- SM and XS -->
+          <div id="row" class="visible-xs-* visible-sm-* hidden-md hidden-lg text-center medias-sm">
+
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+              <a href="https://github.com/LeoAOliveira" target="_blank">
+                <img src="images/github-icon.png" class="btn-logos-sm">
+              </a>
+            </div>
+
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+              <a href="https://medium.com/@leonardo.aoliveira" target="_blank">
+                <img src="images/medium-icon.png" class="btn-logos-sm">
+              </a>
+            </div>
+
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+              <a href="https://www.linkedin.com/in/leonardoaoliveira/" target="_blank">
+                <img src="images/linkedin-icon.png" class="btn-logos-sm">
+              </a>
             </div>
           </div>
           
@@ -92,7 +130,7 @@
     </section>
       
     <!-- Top Shelf -->
-    <section id="projects">
+    <section id="top_shelf">
         
       <div class="container">
           
@@ -118,7 +156,7 @@
               From students to students. The best place to take notes during class.
             </p>
             <br>
-            <a href="https://apps.apple.com/br/app/caderno-roxo/id1535269503" class="btn btn-custom btn-custom-sm btn-lg"> See at App Store </a>
+            <a href="https://apps.apple.com/br/app/caderno-roxo/id1535269503" class="btn btn-custom btn-custom-sm btn-lg"> See on the App Store </a>
           </div>
 
           <!-- Logos Simulador -->
@@ -129,7 +167,7 @@
               Practice investiments. Simulate Brazilian stocks and currencies operations.
             </p>
             <br>
-            <a href="https://apps.apple.com/br/app/logos-simulador/id1474707449" class="btn btn-custom btn-custom-sm btn-lg"> See at App Store </a>
+            <a href="https://apps.apple.com/br/app/logos-simulador/id1474707449" class="btn btn-custom btn-custom-sm btn-lg"> See on the App Store </a>
           </div>
 
           <!-- PREMAX -->
@@ -140,7 +178,7 @@
               Everyone is an artist. Explore, search, buy and sell presets and photo filters.
             </p>
             <br>
-            <a href="" class="btn btn-custom btn-custom-sm btn-lg"> See at App Store </a>
+            <a href="" class="btn btn-custom btn-custom-sm btn-lg"> See on the App Store </a>
           </div>
 
         </div>
@@ -156,7 +194,7 @@
               Practice investiments. Simulate Brazilian stocks and currencies operations.
             </p>
             <br>
-            <a href="https://apps.apple.com/br/app/logos-simulador/id1474707449" class="btn btn-custom-sm btn-custom btn-lg"> See at App Store </a>
+            <a href="https://apps.apple.com/br/app/logos-simulador/id1474707449" class="btn btn-custom-sm btn-custom btn-lg"> See on the App Store </a>
           </div>
           
           <!-- Purple Notebook -->
@@ -167,7 +205,7 @@
               From students to students. The best place to take notes during class.
             </p>
             <br>
-            <a href="" class="btn btn-custom btn-custom-sm btn-lg"> See at App Store </a>
+            <a href="" class="btn btn-custom btn-custom-sm btn-lg"> See on the App Store </a>
           </div>
 
           <!-- PREMAX -->
@@ -178,7 +216,7 @@
               Everyone is an artist. Explore, search, buy and sell presets and photo filters.
             </p>
             <br>
-            <a href="" class="btn btn-custom btn-custom-sm btn-lg"> See at App Store </a>
+            <a href="" class="btn btn-custom btn-custom-sm btn-lg"> See on the App Store </a>
           </div>
         </div>
 
@@ -208,9 +246,9 @@
             <div class="col-lg-12 card">
               <img src="images/icons-titles/icon-title-PN.png" class="col-lg-12 img-responsive img-projects">
               <div class="col-lg-12 links-projects">
-                <a href="https://apps.apple.com/br/app/caderno-roxo/id1535269503" class="btn btn-link btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/br/app/caderno-roxo/id1535269503" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
-                <a href="https://github.com/Pepelelipa/MacroChallenge" class="btn btn-link btn-lg"> See at GitHub </a>
+                <a href="https://github.com/Pepelelipa/MacroChallenge" class="btn btn-link-md btn-lg"> See on GitHub </a>
               </div>
             </div>
           </div>
@@ -220,9 +258,9 @@
             <div class="col-lg-12 card">
               <img src="images/icons-titles/icon-title-LS.png" class="col-lg-12 img-responsive img-projects">
               <div class="col-lg-12 links-projects">
-                <a href="https://apps.apple.com/br/app/logos-simulador/id1474707449" class="btn btn-link btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/br/app/logos-simulador/id1474707449" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
-                <a href="https://github.com/LeoAOliveira/BigShort" class="btn btn-link btn-lg"> See at GitHub </a>
+                <a href="https://github.com/LeoAOliveira/BigShort" class="btn btn-link-md btn-lg"> See on GitHub </a>
               </div>
             </div>
           </div>
@@ -232,9 +270,9 @@
             <div class="col-lg-12 card">
               <img src="images/icons-titles/icon-title-PX.png" class="col-lg-12 img-responsive img-projects">
               <div class="col-lg-12 links-projects">
-                <a href="" class="btn btn-link btn-lg"> See at App Store </a>
+                <a href="" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
-                <a href="https://github.com/lucasfnicolau/PresetsMarketplace" class="btn btn-link btn-lg"> See at GitHub </a>
+                <a href="https://github.com/lucasfnicolau/PresetsMarketplace" class="btn btn-link-md btn-lg"> See on GitHub </a>
               </div>
             </div>
           </div>
@@ -244,9 +282,9 @@
             <div class="col-lg-12 card">
               <img src="images/icons-titles/icon-title-TR.png" class="col-lg-12 img-responsive img-projects">
               <div class="col-lg-12 links-projects">
-                <a href="https://apps.apple.com/br/app/três/id1481674340" class="btn btn-link btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/br/app/três/id1481674340" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
-                <a href="https://www.instagram.com/tv/CBdQDU3n23k/?igshid=vdflzn0d2mf6" class="btn btn-link btn-lg"> See Heitor Branquinho's IGTV </a>
+                <a href="https://www.instagram.com/tv/CBdQDU3n23k/?igshid=vdflzn0d2mf6" class="btn btn-link-md btn-lg"> See Heitor Branquinho's IGTV </a>
               </div>
             </div>
           </div>
@@ -256,9 +294,9 @@
             <div class="col-lg-12 card">
               <img src="images/icons-titles/icon-title-LA.png" class="col-lg-12 img-responsive img-projects">
               <div class="col-lg-12 links-projects">
-                <a href="" class="btn btn-link btn-lg"> See at YouTube </a>
+                <a href="" class="btn btn-link-md btn-lg"> See on YouTube </a>
                 <br>
-                <a href="https://github.com/LeoAOliveira/Useless-App" class="btn btn-link btn-lg"> See at GitHub </a>
+                <a href="https://github.com/LeoAOliveira/Useless-App" class="btn btn-link-md btn-lg"> See on GitHub </a>
               </div>
             </div>
           </div>
@@ -268,9 +306,9 @@
             <div class="col-lg-12 card">
               <img src="images/icons-titles/icon-title-TH.png" class="col-lg-12 img-responsive img-projects">
               <div class="col-lg-12 links-projects">
-                <a href="https://apps.apple.com/br/app/the-hatch-splashing-around/id1490932827" class="btn btn-link btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/br/app/the-hatch-splashing-around/id1490932827" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
-                <a href="https://github.com/lucasfnicolau/MultipeerGame" class="btn btn-link btn-lg"> See at GitHub </a>
+                <a href="https://github.com/lucasfnicolau/MultipeerGame" class="btn btn-link-md btn-lg"> See on GitHub </a>
               </div>
             </div>
           </div>
@@ -280,9 +318,9 @@
             <div class="col-lg-12 card">
               <img src="images/icons-titles/icon-title-BA.png" class="col-lg-12 img-responsive img-projects">
               <div class="col-lg-12 links-projects">
-                <a href="" class="btn btn-link btn-lg"> See images </a>
+                <a href="" class="btn btn-link-md btn-lg"> See images </a>
                 <br>
-                <a href="https://github.com/LeoAOliveira/Nano3-Ledro" class="btn btn-link btn-lg"> See at GitHub </a>
+                <a href="https://github.com/LeoAOliveira/Nano3-Ledro" class="btn btn-link-md btn-lg"> See on GitHub </a>
               </div>
             </div>
           </div>          
@@ -292,9 +330,9 @@
             <div class="col-lg-12 card">
               <img src="images/icons-titles/icon-title-HE.png" class="col-lg-12 img-responsive img-projects">
               <div class="col-lg-12 links-projects">
-                <a href="https://apps.apple.com/br/app/hefesto/id1480122536" class="btn btn-link btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/br/app/hefesto/id1480122536" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
-                <a href="" class="btn btn-link btn-lg"> See images of the test with athletes </a>
+                <a href="" class="btn btn-link-md btn-lg"> See images of the test with athletes </a>
               </div>
             </div>
           </div>   
@@ -304,9 +342,9 @@
             <div class="col-lg-12 card">
               <img src="images/icons-titles/icon-title-CH.png" class="col-lg-12 img-responsive img-projects">
               <div class="col-lg-12 links-projects">
-                <a href="https://apps.apple.com/us/app/cahoe/id1525030276" class="btn btn-link btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/us/app/cahoe/id1525030276" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
-                <a href="" class="btn btn-link btn-lg"> See illustrations </a>
+                <a href="" class="btn btn-link-md btn-lg"> See illustrations </a>
               </div>
             </div>
           </div>
@@ -316,7 +354,7 @@
             <div class="col-lg-12 card">
               <img src="images/icons-titles/icon-title-TV.png" class="col-lg-12 img-responsive img-projects">
               <div class="col-lg-12 links-projects">
-                <a href="https://apps.apple.com/br/app/travelling/id1463917170" class="btn btn-link btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/br/app/travelling/id1463917170" class="btn btn-link-md btn-lg"> See on the App Store </a>
               </div>
             </div>
           </div>
@@ -326,7 +364,7 @@
             <div class="col-lg-12 card">
               <img src="images/icons-titles/icon-title-PA.png" class="col-lg-12 img-responsive img-projects">
               <div class="col-lg-12 links-projects">
-                <a href="" class="btn btn-link btn-lg"> See at YouTube </a>
+                <a href="" class="btn btn-link-md btn-lg"> See on YouTube </a>
               </div>
             </div>
           </div>
@@ -336,7 +374,7 @@
             <div class="col-lg-12 card">
               <img src="images/icons-titles/icon-title-PR.png" class="col-lg-12 img-responsive img-projects">
               <div class="col-lg-12 links-projects">
-                <a href="" class="btn btn-link btn-lg"> See at YouTube </a>
+                <a href="" class="btn btn-link-md btn-lg"> See on YouTube </a>
               </div>
             </div>
           </div>
@@ -346,9 +384,9 @@
             <div class="col-lg-12 card">
               <img src="images/icons-titles/icon-title-AR.png" class="col-lg-12 img-responsive img-projects">
               <div class="col-lg-12 links-projects">
-                <a href="https://apps.apple.com/br/app/aoredor/id1503555265" class="btn btn-link-md btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/br/app/aoredor/id1503555265" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
-                <a href="" class="btn btn-link-md btn-lg"> See at YouTube </a>
+                <a href="" class="btn btn-link-md btn-lg"> See on YouTube </a>
               </div>
             </div>
           </div>
@@ -363,9 +401,9 @@
             <div class="col-sm-12 col-md-12 card">
               <img src="images/icons-titles/icon-title-PN.png" class="col-sm-12 col-md-12 img-responsive img-projects">
               <div class="col-sm-12 col-md-12 links-projects">
-                <a href="https://apps.apple.com/br/app/caderno-roxo/id1535269503" class="btn btn-link-md btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/br/app/caderno-roxo/id1535269503" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
-                <a href="https://github.com/Pepelelipa/MacroChallenge" class="btn btn-link-md btn-lg"> See at GitHub </a>
+                <a href="https://github.com/Pepelelipa/MacroChallenge" class="btn btn-link-md btn-lg"> See on GitHub </a>
               </div>
             </div>
           </div>
@@ -375,9 +413,9 @@
             <div class="col-sm-12 col-md-12 card">
               <img src="images/icons-titles/icon-title-LS.png" class="col-sm-12 col-md-12 img-responsive img-projects">
               <div class="col-sm-12 col-md-12 links-projects">
-                <a href="https://apps.apple.com/br/app/logos-simulador/id1474707449" class="btn btn-link-md btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/br/app/logos-simulador/id1474707449" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
-                <a href="https://github.com/LeoAOliveira/BigShort" class="btn btn-link-md btn-lg"> See at GitHub </a>
+                <a href="https://github.com/LeoAOliveira/BigShort" class="btn btn-link-md btn-lg"> See on GitHub </a>
               </div>
             </div>
           </div>
@@ -387,9 +425,9 @@
             <div class="col-sm-12 col-md-12 card">
               <img src="images/icons-titles/icon-title-PX.png" class="col-sm-12 col-md-12 img-responsive img-projects">
               <div class="col-sm-12 col-md-12 links-projects">
-                <a href="" class="btn btn-link-md btn-lg"> See at App Store </a>
+                <a href="" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
-                <a href="https://github.com/lucasfnicolau/PresetsMarketplace" class="btn btn-link-md btn-lg"> See at GitHub </a>
+                <a href="https://github.com/lucasfnicolau/PresetsMarketplace" class="btn btn-link-md btn-lg"> See on GitHub </a>
               </div>
             </div>
           </div>
@@ -399,7 +437,7 @@
             <div class="col-sm-12 col-md-12 card">
               <img src="images/icons-titles/icon-title-TR.png" class="col-sm-12 col-md-12 img-responsive img-projects">
               <div class="col-sm-12 col-md-12 links-projects">
-                <a href="https://apps.apple.com/br/app/três/id1481674340" class="btn btn-link-md btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/br/app/três/id1481674340" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
                 <a href="https://www.instagram.com/tv/CBdQDU3n23k/?igshid=vdflzn0d2mf6" class="btn btn-link-md btn-lg"> See Heitor Branquinho's IGTV </a>
               </div>
@@ -411,9 +449,9 @@
             <div class="col-sm-12 col-md-12 card">
               <img src="images/icons-titles/icon-title-LA.png" class="col-sm-12 col-md-12 img-responsive img-projects">
               <div class="col-sm-12 col-md-12 links-projects">
-                <a href="" class="btn btn-link-md btn-lg"> See at YouTube </a>
+                <a href="" class="btn btn-link-md btn-lg"> See on YouTube </a>
                 <br>
-                <a href="https://github.com/LeoAOliveira/Useless-App" class="btn btn-link-md btn-lg"> See at GitHub </a>
+                <a href="https://github.com/LeoAOliveira/Useless-App" class="btn btn-link-md btn-lg"> See on GitHub </a>
               </div>
             </div>
           </div>
@@ -423,9 +461,9 @@
             <div class="col-sm-12 col-md-12 card">
               <img src="images/icons-titles/icon-title-TH.png" class="col-sm-12 col-md-12 img-responsive img-projects">
               <div class="col-sm-12 col-md-12 links-projects">
-                <a href="https://apps.apple.com/br/app/the-hatch-splashing-around/id1490932827" class="btn btn-link-md btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/br/app/the-hatch-splashing-around/id1490932827" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
-                <a href="https://github.com/lucasfnicolau/MultipeerGame" class="btn btn-link-md btn-lg"> See at GitHub </a>
+                <a href="https://github.com/lucasfnicolau/MultipeerGame" class="btn btn-link-md btn-lg"> See on GitHub </a>
               </div>
             </div>
           </div>
@@ -437,7 +475,7 @@
               <div class="col-sm-12 col-md-12 links-projects">
                 <a href="" class="btn btn-link-md btn-lg"> See images </a>
                 <br>
-                <a href="https://github.com/LeoAOliveira/Nano3-Ledro" class="btn btn-link-md btn-lg"> See at GitHub </a>
+                <a href="https://github.com/LeoAOliveira/Nano3-Ledro" class="btn btn-link-md btn-lg"> See on GitHub </a>
               </div>
             </div>
           </div>          
@@ -447,7 +485,7 @@
             <div class="col-sm-12 col-md-12 card">
               <img src="images/icons-titles/icon-title-HE.png" class="col-sm-12 col-md-12 img-responsive img-projects">
               <div class="col-sm-12 col-md-12 links-projects">
-                <a href="https://apps.apple.com/br/app/hefesto/id1480122536" class="btn btn-link-md btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/br/app/hefesto/id1480122536" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
                 <a href="" class="btn btn-link-md btn-lg"> See images of the test with athletes </a>
               </div>
@@ -459,7 +497,7 @@
             <div class="col-sm-12 col-md-12 card">
               <img src="images/icons-titles/icon-title-CH.png" class="col-sm-12 col-md-12 img-responsive img-projects">
               <div class="col-sm-12 col-md-12 links-projects">
-                <a href="https://apps.apple.com/us/app/cahoe/id1525030276" class="btn btn-link-md btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/us/app/cahoe/id1525030276" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
                 <a href="" class="btn btn-link-md btn-lg"> See illustrations </a>
               </div>
@@ -471,7 +509,7 @@
             <div class="col-sm-12 col-md-12 card">
               <img src="images/icons-titles/icon-title-TV.png" class="col-sm-12 col-md-12 img-responsive img-projects">
               <div class="col-sm-12 col-md-12 links-projects">
-                <a href="https://apps.apple.com/br/app/travelling/id1463917170" class="btn btn-link-md btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/br/app/travelling/id1463917170" class="btn btn-link-md btn-lg"> See on the App Store </a>
               </div>
             </div>
           </div>
@@ -481,7 +519,7 @@
             <div class="col-sm-12 col-md-12 card">
               <img src="images/icons-titles/icon-title-PA.png" class="col-sm-12 col-md-12 img-responsive img-projects">
               <div class="col-sm-12 col-md-12 links-projects">
-                <a href="" class="btn btn-link-md btn-lg"> See at YouTube </a>
+                <a href="" class="btn btn-link-md btn-lg"> See on YouTube </a>
               </div>
             </div>
           </div>
@@ -491,7 +529,7 @@
             <div class="col-sm-12 col-md-12 card">
               <img src="images/icons-titles/icon-title-PR.png" class="col-sm-12 col-md-12 img-responsive img-projects">
               <div class="col-sm-12 col-md-12 links-projects">
-                <a href="" class="btn btn-link-md btn-lg"> See at YouTube </a>
+                <a href="" class="btn btn-link-md btn-lg"> See on YouTube </a>
               </div>
             </div>
           </div>
@@ -501,9 +539,9 @@
             <div class="col-sm-12 col-md-12 card">
               <img src="images/icons-titles/icon-title-AR.png" class="col-sm-12 col-md-12 img-responsive img-projects">
               <div class="col-sm-12 col-md-12 links-projects">
-                <a href="https://apps.apple.com/br/app/aoredor/id1503555265" class="btn btn-link-md btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/br/app/aoredor/id1503555265" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
-                <a href="" class="btn btn-link-md btn-lg"> See at YouTube </a>
+                <a href="" class="btn btn-link-md btn-lg"> See on YouTube </a>
               </div>
             </div>
           </div>
@@ -515,46 +553,46 @@
 
           <!-- Purple Notebook -->
           <div class="col-xs-12">
-            <div class="col-xs-12 card">
+            <div class="col-xs-12 card-xs">
               <img src="images/icons-titles/icon-title-PN.png" class="col-xs-12 img-responsive img-projects">
               <div class="col-xs-12 links-projects">
-                <a href="https://apps.apple.com/br/app/caderno-roxo/id1535269503" class="btn btn-link-md btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/br/app/caderno-roxo/id1535269503" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
-                <a href="https://github.com/Pepelelipa/MacroChallenge" class="btn btn-link-md btn-lg"> See at GitHub </a>
+                <a href="https://github.com/Pepelelipa/MacroChallenge" class="btn btn-link-md btn-lg"> See on GitHub </a>
               </div>
             </div>
           </div>
 
           <!-- Logos Simulador -->
           <div class="col-xs-12">
-            <div class="col-xs-12 card">
+            <div class="col-xs-12 card-xs">
               <img src="images/icons-titles/icon-title-LS.png" class="col-xs-12 img-responsive img-projects">
               <div class="col-xs-12 links-projects">
-                <a href="https://apps.apple.com/br/app/logos-simulador/id1474707449" class="btn btn-link-md btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/br/app/logos-simulador/id1474707449" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
-                <a href="https://github.com/LeoAOliveira/BigShort" class="btn btn-link-md btn-lg"> See at GitHub </a>
+                <a href="https://github.com/LeoAOliveira/BigShort" class="btn btn-link-md btn-lg"> See on GitHub </a>
               </div>
             </div>
           </div>
 
           <!-- PREMAX -->
           <div class="col-xs-12">
-            <div class="col-xs-12 card">
+            <div class="col-xs-12 card-xs">
               <img src="images/icons-titles/icon-title-PX.png" class="col-xs-12 img-responsive img-projects">
               <div class="col-xs-12 links-projects">
-                <a href="" class="btn btn-link-md btn-lg"> See at App Store </a>
+                <a href="" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
-                <a href="https://github.com/lucasfnicolau/PresetsMarketplace" class="btn btn-link-md btn-lg"> See at GitHub </a>
+                <a href="https://github.com/lucasfnicolau/PresetsMarketplace" class="btn btn-link-md btn-lg"> See on GitHub </a>
               </div>
             </div>
           </div>
 
           <!-- Três -->
           <div class="col-xs-12">
-            <div class="col-xs-12 card">
+            <div class="col-xs-12 card-xs">
               <img src="images/icons-titles/icon-title-TR.png" class="col-xs-12 img-responsive img-projects">
               <div class="col-xs-12 links-projects">
-                <a href="https://apps.apple.com/br/app/três/id1481674340" class="btn btn-link-md btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/br/app/três/id1481674340" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
                 <a href="https://www.instagram.com/tv/CBdQDU3n23k/?igshid=vdflzn0d2mf6" class="btn btn-link-md btn-lg"> See Heitor Branquinho's IGTV </a>
               </div>
@@ -563,46 +601,46 @@
 
           <!-- Leo's App -->
           <div class="col-xs-12">
-            <div class="col-xs-12 card">
+            <div class="col-xs-12 card-xs">
               <img src="images/icons-titles/icon-title-LA.png" class="col-xs-12 img-responsive img-projects">
               <div class="col-xs-12 links-projects">
-                <a href="" class="btn btn-link-md btn-lg"> See at YouTube </a>
+                <a href="" class="btn btn-link-md btn-lg"> See on YouTube </a>
                 <br>
-                <a href="https://github.com/LeoAOliveira/Useless-App" class="btn btn-link-md btn-lg"> See at GitHub </a>
+                <a href="https://github.com/LeoAOliveira/Useless-App" class="btn btn-link-md btn-lg"> See on GitHub </a>
               </div>
             </div>
           </div>
 
           <!-- The Hatch -->
           <div class="col-xs-12">
-            <div class="col-xs-12 card">
+            <div class="col-xs-12 card-xs">
               <img src="images/icons-titles/icon-title-TH.png" class="col-xs-12 img-responsive img-projects">
               <div class="col-xs-12 links-projects">
-                <a href="https://apps.apple.com/br/app/the-hatch-splashing-around/id1490932827" class="btn btn-link-md btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/br/app/the-hatch-splashing-around/id1490932827" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
-                <a href="https://github.com/lucasfnicolau/MultipeerGame" class="btn btn-link-md btn-lg"> See at GitHub </a>
+                <a href="https://github.com/lucasfnicolau/MultipeerGame" class="btn btn-link-md btn-lg"> See on GitHub </a>
               </div>
             </div>
           </div>
 
           <!-- Bartartar -->
           <div class="col-xs-12">
-            <div class="col-xs-12 card">
+            <div class="col-xs-12 card-xs">
               <img src="images/icons-titles/icon-title-BA.png" class="col-xs-12 img-responsive img-projects">
               <div class="col-xs-12 links-projects">
                 <a href="" class="btn btn-link-md btn-lg"> See images </a>
                 <br>
-                <a href="https://github.com/LeoAOliveira/Nano3-Ledro" class="btn btn-link-md btn-lg"> See at GitHub </a>
+                <a href="https://github.com/LeoAOliveira/Nano3-Ledro" class="btn btn-link-md btn-lg"> See on GitHub </a>
               </div>
             </div>
           </div>          
 
           <!-- Hefesto -->
           <div class="col-xs-12">
-            <div class="col-xs-12 card">
+            <div class="col-xs-12 card-xs">
               <img src="images/icons-titles/icon-title-HE.png" class="col-xs-12 img-responsive img-projects">
               <div class="col-xs-12 links-projects">
-                <a href="https://apps.apple.com/br/app/hefesto/id1480122536" class="btn btn-link-md btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/br/app/hefesto/id1480122536" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
                 <a href="" class="btn btn-link-md btn-lg"> See images of the test with athletes </a>
               </div>
@@ -611,10 +649,10 @@
           
           <!-- Cahoe -->
           <div class="col-xs-12">
-            <div class="col-xs-12 card">
+            <div class="col-xs-12 card-xs">
               <img src="images/icons-titles/icon-title-CH.png" class="col-xs-12 img-responsive img-projects">
               <div class="col-xs-12 links-projects">
-                <a href="https://apps.apple.com/us/app/cahoe/id1525030276" class="btn btn-link-md btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/us/app/cahoe/id1525030276" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
                 <a href="" class="btn btn-link-md btn-lg"> See illustrations </a>
               </div>
@@ -623,42 +661,42 @@
 
           <!-- Travelling+ -->
           <div class="col-xs-12">
-            <div class="col-xs-12 card">
+            <div class="col-xs-12 card-xs">
               <img src="images/icons-titles/icon-title-TV.png" class="col-xs-12 img-responsive img-projects">
               <div class="col-xs-12 links-projects">
-                <a href="https://apps.apple.com/br/app/travelling/id1463917170" class="btn btn-link-md btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/br/app/travelling/id1463917170" class="btn btn-link-md btn-lg"> See on the App Store </a>
               </div>
             </div>
           </div>
           
           <!-- Pitstop Algorithm -->
           <div class="col-xs-12">
-            <div class="col-xs-12 card">
+            <div class="col-xs-12 card-xs">
               <img src="images/icons-titles/icon-title-PA.png" class="col-xs-12 img-responsive img-projects">
               <div class="col-xs-12 links-projects">
-                <a href="" class="btn btn-link-md btn-lg"> See at YouTube </a>
+                <a href="" class="btn btn-link-md btn-lg"> See on YouTube </a>
               </div>
             </div>
           </div>
 
           <!-- Pitstop AR -->
           <div class="col-xs-12">
-            <div class="col-xs-12 card">
+            <div class="col-xs-12 card-xs">
               <img src="images/icons-titles/icon-title-PR.png" class="col-xs-12 img-responsive img-projects">
               <div class="col-xs-12 links-projects">
-                <a href="" class="btn btn-link-md btn-lg"> See at YouTube </a>
+                <a href="" class="btn btn-link-md btn-lg"> See on YouTube </a>
               </div>
             </div>
           </div>
 
           <!-- Ao Redor -->
           <div class="col-xs-12">
-            <div class="col-xs-12 card">
+            <div class="col-xs-12 card-xs">
               <img src="images/icons-titles/icon-title-AR.png" class="col-xs-12 img-responsive img-projects">
               <div class="col-xs-12 links-projects">
-                <a href="https://apps.apple.com/br/app/aoredor/id1503555265" class="btn btn-link-md btn-lg"> See at App Store </a>
+                <a href="https://apps.apple.com/br/app/aoredor/id1503555265" class="btn btn-link-md btn-lg"> See on the App Store </a>
                 <br>
-                <a href="" class="btn btn-link-md btn-lg"> See at YouTube </a>
+                <a href="" class="btn btn-link-md btn-lg"> See on YouTube </a>
               </div>
             </div>
           </div>
@@ -668,7 +706,102 @@
       </div>
     </section>
 
-    <!-- Rodapé -->
+    <!-- Publications -->
+    <section id="publications">
+
+        <div class="container">
+
+          <!-- Título -->
+          <div id="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 visible-sm-* visible-md-* visible-lg-* hidden-xs">
+              <h1 class="titles"> Publications </h1>
+            </div>
+            <div class="col-xs-12 visible-xs-* hidden-sm hidden-md hidden-lg">
+              <h1 class="titles-xs"> Publications </h1>
+            </div>
+          </div>
+
+          <!-- MD and LG -->
+          <div id="row" class="visible-md-* visible-lg-* hidden-xs hidden-sm">
+
+            <div class="col-md-6 col-lg-6">
+              <div class="col text-center col-lg-12 card-publications">
+                <!-- Imagem -->
+                <a href="https://medium.com/mackmobile/mac-catalyst-leve-seu-app-de-ipad-para-o-mac-f0e10150b518" target="_blank">
+                  <img src="images/publication1.png" class="img-publications">
+                </a>
+                <!-- Título -->
+                <h1 class="title-publications"> Mac Catalyst:<br>leve seu app de iPad para o Mac </h1>
+                <!-- Descrição -->
+                <p class="description-publications">
+                  Medium article on Mac Catalyst, its implementation and features.
+                </p>
+                <!-- Link -->
+                <a href="https://medium.com/mackmobile/mac-catalyst-leve-seu-app-de-ipad-para-o-mac-f0e10150b518" class="btn link-publications btn-lg"> Read on Medium </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6">
+              <div class="col text-center col-lg-12 card-publications">
+                <!-- Imagem -->
+                <a href="https://medium.com/mackmobile/múltiplos-carrosséis-table-view-collection-view-8430208ec8dd" target="_blank">
+                  <img src="images/publication2.png" class="img-publications">
+                </a>
+                <!-- Título -->
+                <h1 class="title-publications"> Múltiplos Carrosséis:<br>Table View + Collection View </h1>
+                <!-- Descrição -->
+                <p class="description-publications">
+                  Tutorial for creating carousels published on Medium, very common in iOS apps.
+                </p>
+                <!-- Link -->
+                <a href="https://medium.com/mackmobile/múltiplos-carrosséis-table-view-collection-view-8430208ec8dd" class="btn link-publications btn-lg"> Read on Medium </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- SM and XS -->
+          <div id="row" class="visible-xs-* visible-sm-* hidden-md hidden-lg">
+
+            <div>
+              <div class="col text-center card-publications-xs">
+                <!-- Imagem -->
+                <a href="https://medium.com/mackmobile/mac-catalyst-leve-seu-app-de-ipad-para-o-mac-f0e10150b518" target="_blank">
+                  <img src="images/publication1.png" class="img-publications">
+                </a>
+                <!-- Título -->
+                <h1 class="title-publications"> Mac Catalyst:<br>leve seu app de iPad para o Mac </h1>
+                <!-- Descrição -->
+                <p class="description-publications">
+                  Medium article on Mac Catalyst, its implementation and features.
+                </p>
+                <!-- Link -->
+                <a href="https://medium.com/mackmobile/mac-catalyst-leve-seu-app-de-ipad-para-o-mac-f0e10150b518" class="btn link-publications btn-lg"> Read on Medium </a>
+              </div>
+            </div>
+
+            <div>
+              <div class="col text-center card-publications-xs">
+                <!-- Imagem -->
+                <a href="https://medium.com/mackmobile/múltiplos-carrosséis-table-view-collection-view-8430208ec8dd" target="_blank">
+                  <img src="images/publication2.png" class="img-publications">
+                </a>
+                <!-- Título -->
+                <h1 class="title-publications"> Múltiplos Carrosséis:<br>Table View + Collection View </h1>
+                <!-- Descrição -->
+                <p class="description-publications">
+                  Tutorial published on Medium for creating carousels, a very common interface components in iOS apps.
+                </p>
+                <!-- Link -->
+                <a href="https://medium.com/mackmobile/múltiplos-carrosséis-table-view-collection-view-8430208ec8dd" class="btn link-publications btn-lg"> Read on Medium </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
     <footer id="footer">
 
       <h2 class="col text-center"> Copyright © 2020 Leonardo Amorim de Oliveira </h2>
