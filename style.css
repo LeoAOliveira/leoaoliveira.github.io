@@ -334,6 +334,13 @@ nav.navbar-default{
 	margin-bottom: 10px;
 }
 
+.galeria-bottom-space{
+
+	background: none;
+	height: 30px;
+	width: 100%;
+}
+
 /*===============================================================================*/
 /* Publications */
 
