@@ -5,25 +5,18 @@
 
 body{
 
-	font-family: 'MyriadPro-Regular';
+	font-family: 'Verdana';
 	overflow-x: hidden;
 	background-color: #F5F5F7;
 }
 
 @font-face {
-    font-family: 'MyriadPro-Regular';
-    src: url('MyriadPro/MyriadPro-Regular.otf') format("opentype");
+    font-family: 'Verdana';
 }
 
 
 @font-face {
-    font-family: 'MyriadPro-Semibold';
-    src: url('MyriadPro/MyriadPro-Semibold.ttf') format("truetype");
-}
-
-@font-face {
-    font-family: 'MyriadPro-Bold';
-    src: url('MyriadPro/MyriadPro-Bold.otf') format("opentype");
+    font-family: 'Verdana-Bold';
 }
 
 .backgroundcolor {
@@ -32,17 +25,17 @@ body{
 }
 
 h1{
-	font-family: 'MyriadPro-Semibold';
+	font-family: 'Verdana-Bold';
 }
 
 h2{
-	font-family: 'MyriadPro-Regular';
+	font-family: 'Verdana';
 	font-size: 18px;
 	color: rgb(134,134,139);
 }
 
 h3{
-	font-family: 'MyriadPro-Regular';
+	font-family: 'Verdana';
 	font-size: 12px;
 	color: rgb(134,134,139);
 }
@@ -74,7 +67,7 @@ nav.navbar-default{
 }
 
 .home-link{
-	font-family: 'MyriadPro-Semibold';
+	font-family: 'Verdana';
 	font-size: 18px;
 	color: black;
 	text-align: left;
@@ -83,7 +76,7 @@ nav.navbar-default{
 }
 
 .home-link:hover{
-	font-family: 'MyriadPro-Bold';
+	font-family: 'Verdana-Bold';
 	color: black;
 }
 
@@ -115,7 +108,7 @@ nav.navbar-default{
 }
 
 .text-name {
-	font-family: 'MyriadPro-Semibold';
+	font-family: 'Verdana';
 	text-align: center;
 	color: black;
 	vertical-align: middle;
@@ -153,7 +146,7 @@ nav.navbar-default{
 	color: white;
 	background-color: black;
 
-	font-family: 'MyriadPro-Regular';
+	font-family: 'Verdana';
 	font-size: 18px;
 
 	border-radius: 500px;
@@ -172,7 +165,7 @@ nav.navbar-default{
 	color: white;
 	background-color: black;
 
-	font-family: 'MyriadPro-Regular';
+	font-family: 'Verdana';
 	font-size: 14px;
 
 	border-radius: 500px;
@@ -257,7 +250,7 @@ nav.navbar-default{
 }
 
 .text-top-shelf{
-	font-family: 'MyriadPro-Regular';
+	font-family: 'Verdana';
 	color: black;
 	text-align: center;
 	font-size: 20px;
@@ -267,7 +260,7 @@ nav.navbar-default{
 }
 
 .text-top-shelf{
-	font-family: 'MyriadPro-Regular';
+	font-family: 'Verdana';
 	color: black;
 	text-align: center;
 	font-size: 20px;
@@ -327,7 +320,7 @@ nav.navbar-default{
 
 .btn-link-md{
 	color: rgb(40, 102, 197);
-	font-family: 'MyriadPro-Regular';
+	font-family: 'Verdana';
 	text-align: left;
 	font-size: 13px;
 	padding: 0px;
@@ -383,7 +376,7 @@ nav.navbar-default{
 }
 
 .description-publications{
-	font-family: 'MyriadPro-Regular';
+	font-family: 'Verdana';
 	color: black;
 	text-align: center;
 	font-size: 20px;
@@ -402,7 +395,7 @@ nav.navbar-default{
 	padding: 20px;
 	text-align: center;
 	color: rgb(40, 102, 197);
-	font-family: 'MyriadPro-Regular';
+	font-family: 'Verdana';
 }
 
 /*===============================================================================*/
